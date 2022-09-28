@@ -1,0 +1,436 @@
+
+
+
+.div_cugat{
+           
+margin-left:43vh;
+    top:-18vh;
+    background-color: rgb(255, 150, 80);
+    border:solid 0.3vh rgb(168, 95, 27);
+   height:17vh;
+    width:17vh;
+  position: relative;
+    border-radius:50%;
+    box-shadow: 0vh 0vh 1vh 0vh rgb(173, 94, 29);
+    
+
+
+}
+.h2_cugat_tp{
+    font-style: italic;
+    font-family: Brush Script MT;
+    color:white;
+    font-size: 6.5vh;  
+    margin-top: 1.4vh;
+    margin-left:1vh;
+      display:inline-block;
+     }
+
+
+ .d_titulo01{ 
+     background-color: rgba(195, 210, 238, 0.329);
+    width:80.4vh;
+    height:8vh;
+    overflow: hidden;
+
+
+ }
+   
+
+
+.h3_cugat_t{
+ font-style: italic;
+ font-family: Brush Script MT;
+ color:rgb(61, 59, 59);
+top:-0.9vh;
+ font-size: 1.2vh;
+ margin-left:3vh;
+ position: relative;
+
+ 
+ 
+}
+.d_cielo{
+    z-index: 0;
+    width:100%;
+    height:60vh;
+background-size: cover;
+
+background-repeat: no-repeat;
+background-image:url("img/cieloazul.png");
+position: absolute;
+
+}
+
+
+.d_piso{
+    position: absolute;
+    width:100%;
+    height:52vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-image:url("img/piso.png");
+
+}
+
+
+.d_piso_detalle0{
+    position: absolute;
+    width:100%;
+    height:52vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-image:url("img/adorno_piso.png");
+}
+.d_piso_detalle01{
+    position: absolute;
+    width:100%;
+    height:52vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-image:url("img/adorno_piso01.png");
+}
+
+
+.h3_cugat_t1{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 0.8vh;
+    position: relative;
+    top:4.5vh;
+    margin-left:6vh;
+    display:inline-block;
+   
+    
+}
+
+.animacion_cugat{
+    animation-name: cugat_00;
+    animation-duration: 420s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@font-face {
+  
+
+     font-family: "Permanent Marker";
+    src: url("Permanent_Marker/PermanentMarker-Regular.ttf");
+
+  }
+
+
+@font-face {
+  
+
+     font-family: "Pacifico";
+    src: url("Pacifico/Pacifico-Regular.ttf");
+
+  }
+
+
+
+.title_oferta00{
+    margin-top:1vh;
+    margin-left: 5vh;
+    font-weight: 800;
+   font-family: Permanent Marker;
+    font-size: 5vh;
+display: inline-block;
+color: rgb(107, 85, 25);
+
+}
+
+.h3_ofertas{
+    font-family:Permanent Marker;
+    font-size: 3.5vh;
+    font-weight: 800;
+margin-left:0vh;
+text-align: center;
+color:rgb(143, 190, 56);
+
+}
+
+
+.d_cuadrado_ofertas{
+  
+    margin-left:1vh;
+    width:33vh;
+    height:10.5vh;
+ border-bottom: 0.3vh solid rgba(214, 204, 66, 0.795);
+ background-color: rgba(237, 247, 90, 0.219);
+ float:left;
+ overflow: hidden;
+}
+
+.h3_ofertas_n{
+    color: rgba(102, 196, 99, 0.781);
+}
+.h3_ofertas_p{
+    color: rgba(255, 127, 80, 0.774);
+}
+
+@font-face{
+    font-family:"Satisfy";
+    src: url("Satisfy-Regular.ttf");
+}
+
+
+.d_campion01{
+    left:88vh;
+   margin-top:12.4vh;
+    position: absolute;
+    width:40vh;
+    height:45vh;
+   
+    float: right;
+}
+
+  .d_sombra00{
+      position: absolute;
+      z-index: 4;
+      margin-top:3vh;
+      margin-left: 9vh;
+width:120vh;
+height:35vh;
+
+
+background-image: url(img/cerro02/sombra.png);
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+
+.d_reflejo{
+    position: absolute;
+    z-index: 9;
+    margin-top:-25vh;
+    margin-left: 96.5vh;
+width:25vh;
+height:25vh;
+
+background-image: url(img/reflejo.png);
+background-size: contain;
+background-repeat: no-repeat;
+
+
+animation-name: reflejo_vidrio;
+animation-duration: 0.4s;
+animation-iteration-count: infinite;
+animation-delay: o;    
+animation-timing-function: linear;
+
+
+}
+
+
+.d_rueda01{
+z-index:7;
+    
+    width: 17.5vh;
+    height:17.5vh;
+  
+}
+
+
+
+#d_cargar0{
+    left:119.5vh;
+    top:73vh;
+    position: absolute;
+    float: right;
+    background-image: url("img/carga01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.carga_camion0{
+    width: 50.5vh;
+    height:13.5vh;
+  
+}
+
+.d_noche{
+    z-index: 10;
+    
+    top:0;
+    left:0;
+    width:200vh;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.226);
+    position: absolute;
+}
+
+
+#d_ruedacamion01{
+    left:91.3vh;
+    top:75vh;
+    position: absolute;
+    float: right;
+    background-image: url("img/rueda01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: rueda01;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-delay: 0;
+
+
+
+}
+
+
+.d_rueda02{
+
+    
+   
+    width: 17.5vh;
+    height:17.5vh;
+  
+}
+
+#d_ruedacamion02{
+    z-index: 7;
+    left:13vh;
+    top:75vh;
+    position: absolute;
+    float: right;
+    background-image: url("img/rueda01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: rueda01;
+animation-duration: 4s;
+
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-delay: 7s;
+}
+
+
+
+#d_camion0_verduras{
+    background-image: url("img/camion01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 8;
+animation-name: camioneta_encendida;
+animation-duration: 0.1s;
+animation-iteration-count: infinite;
+animation-delay: 0;    
+animation-timing-function: linear;
+}
+
+.d_motor01{
+     z-index:6;
+    left:43vh;
+    width:80vh;
+   top:73vh;
+height:11vh;
+position:absolute;
+        background-image: url("img/motor_camion.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+
+       animation-name: motor_encendida01;
+animation-duration: 0.1s;
+animation-iteration-count: infinite;
+animation-delay: 0;    
+
+    }
+
+
+    .d_motor02{
+        z-index:6;
+        left:43vh;
+        top:71.2vh;
+        width:80vh;
+    height:11vh;
+    position:absolute;
+            background-image: url("img/motor_camion02.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+
+            animation-name: motor_encendida02;
+            animation-duration: 0.1s;
+            animation-iteration-count: infinite;
+            animation-delay: 0;    
+
+    
+        }
+
+
+
+        .d_motor03{
+            z-index: 6;
+            top:72vh;
+            left:6.5vh;
+            width:80vh;
+        height:11vh;
+        position:absolute;
+                background-image: url("img/motor_camion03.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+
+
+                animation-name: motor_encendida03;
+            animation-duration: 0.1s;
+            animation-iteration-count: infinite;
+            animation-delay: 0;    
+
+    
+        
+            }
+
+            
+.d_motor04{
+    z-index: 6;
+   left:8vh;
+   top:72vh;
+   width:85vh;
+height:15vh;
+position:absolute;
+       background-image: url("img/motor_camion04.png");
+       background-size: contain;
+       background-repeat: no-repeat;
+       
+       animation-name: motor_encendida04;
+       animation-duration: 0.1s;
+       animation-iteration-count: infinite;
+       animation-delay: 0;    
+   }
+
+   
+   .d_motor06{
+    z-index: 5;
+   margin-left:84vh;
+   top:72vh;
+   width:20vh;
+height:15vh;
+position:absolute;
+       background-image: url("img/motor_delantero.png");
+       background-size: contain;
+       background-repeat: no-repeat;
+       
+       animation-name: motor_encendida04;
+       animation-duration: 0.1s;
+       animation-iteration-count: infinite;
+       animation-delay: 0;    
+   }
+
+
+
+
+.d_cerro0{
+    left:-40vh;
+    top:30vh;
+    position: absolute;
+    width:300vh;
+    height:25vh;
+    background-image: url("img/cerro01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

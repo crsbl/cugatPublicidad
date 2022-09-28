@@ -1,0 +1,190 @@
+
+
+
+
+#d_general{
+    width:100%;
+    height:100%;
+
+   
+    background-repeat: no-repeat;
+    background: cover;
+    margin:auto;
+    background-attachment: fixed;
+    overflow: hidden;
+
+}
+
+#d_formulario{
+   width: 90%;
+   height:100%;
+background-color: rgba(103, 172, 89, 0.705);
+margin: auto;
+border: solid 0.5vh rgba(36, 104, 53, 0.363);
+overflow: hidden;
+}
+
+.inp_form{
+  display: block;
+border-radius: 1vh;
+width:40vh;
+height:5vh;
+margin:auto;
+border-bottom: 0.5vh solid rgb(56, 131, 46);
+margin-top: 0vh;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+color: teal;
+font-size: 3vh;
+font-weight: 800;
+}
+
+h1{
+  text-align: center; 
+  color:rgb(240, 224, 224);
+}
+h2{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center; 
+    color:rgb(240, 224, 224);   
+}
+
+#h1_titulo{
+   
+    text-decoration: none;
+    display:block;
+    border-bottom:0.7vh solid rgba(48, 110, 40, 0.493);
+    border-top:0.7vh solid rgba(48, 110, 40, 0.493);
+    background-color: rgba(49, 175, 137, 0.623);
+    margin:center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+header{
+width:95%;
+height:10vh;
+background-color: rgba(215, 255, 71, 0.514);
+margin: auto;
+}
+
+button{
+    width:25vh;
+    height:9vh;
+    margin:auto;
+    display: block;
+margin-top: 2vh;
+background-color: rgb(162, 255, 101);
+border-bottom:solid 0.4vh rgba(89, 129, 56, 0.822);
+border-left:solid 0.3vh rgba(89, 129, 56, 0.822);
+border-top:solid 0.3vh rgba(143, 231, 71, 0.404);
+border-right:solid 0.3vh rgba(143, 231, 71, 0.404) ;
+border-radius:0.4vh 0.4vh 2vh 0.4vh;
+font-weight: 800;
+color: rgb(24, 85, 34);
+font-size: 4vh;
+}
+
+
+
+#inp_titulo1{
+   
+  animation-duration: 1.5s;
+}
+#inp_precio1{
+   
+  animation-duration: 1.5s;
+}
+
+#inp_titulo2{
+   
+  animation-duration: 1.5s;
+}
+#inp_precio2{
+   
+  animation-duration: 1.5s;
+}
+
+#inp_titulo3{
+   
+  animation-duration: 1.5s;
+}
+#inp_precio3{
+   
+  animation-duration: 1.5s;
+}
+
+#inp_titulo4{
+   
+  animation-duration: 1.5s;
+}
+#inp_precio4{
+   
+  animation-duration: 1.5s;
+}
+#inp_titulo5{
+   
+  animation-duration: 1.5s;
+}
+#inp_precio5{
+   
+  animation-duration: 1.5s;
+}
+
+#inp_titulo6{
+   
+  animation-duration: 1.5s;
+}
+#inp_precio6{
+   
+  animation-duration: 1.5s;
+}
+
+#inp_titulo7{
+   
+  animation-duration: 1.5s;
+}
+#inp_precio7{
+   
+  animation-duration: 1.5s;
+}
+
+#inp_titulo_oferta{
+   
+  animation-duration: 1.5s;
+}
+
+#inp_destino_camion{
+  animation-duration: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+@keyframes modificado_{
+  20%{
+    margin-left:37%;
+    color:red;
+  }
+
+  40%{
+      margin-left:43%;
+      
+  }
+
+  60%{
+      margin-left:37%;
+  }
+
+  80%{
+      margin-left:43%;
+  }
+  100%{
+      
+  }
